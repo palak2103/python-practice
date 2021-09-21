@@ -1,0 +1,3 @@
+list1 = [10,20,30]
+For i in list1:
+    print(i)
