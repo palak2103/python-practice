@@ -1,0 +1,7 @@
+list= [23,45,67,78,89]
+list.reverse()
+i=-1
+for i in list:
+  
+  print(i,end=" ")
+    
