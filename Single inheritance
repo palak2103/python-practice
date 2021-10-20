@@ -1,0 +1,23 @@
+class Teacher:
+  def __init__(self,roll,name,salary,age,gender):
+    self.roll= roll
+    self.name= name
+    self.salary= salary
+    self.age= age
+    self.gender= gender
+  def about_schoolteachers(self):
+    print("rollno",self.roll)
+    print("name",self.name)
+    print("salary",self.salary)
+    print("age",self.age)
+    print("gender",self.gender)
+    print("i m a good teacher")
+obj=Teacher(103,"palak",5000,21,"female")
+obj.about_schoolteachers()
+
+class Student(teacher):
+  def about_studentdetails(self):
+    print("i m a good student")
+s2=student()    
+s2.about_studentdetails()
+
